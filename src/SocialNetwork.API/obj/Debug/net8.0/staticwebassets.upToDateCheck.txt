@@ -1,0 +1,5 @@
+wwwroot\images\background.png
+wwwroot\images\cover-group.png
+wwwroot\images\groups.png
+wwwroot\images\image.png
+wwwroot\images\user.png

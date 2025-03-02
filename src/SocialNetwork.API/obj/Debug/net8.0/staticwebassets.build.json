@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "JBQGMcJ8Awzp1tIWrvxsB3gG9LyA1JqHmEo1xfzpeeo=",
+  "Source": "SocialNetwork.API",
+  "BasePath": "_content/SocialNetwork.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SocialNetwork.API\\wwwroot",
+      "Source": "SocialNetwork.API",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\background.png",
+      "SourceId": "SocialNetwork.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "RelativePath": "images/background#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pyxo1msuv2",
+      "Integrity": "D0XidGFscJGTz5yCCF5lBTSpo2rQrnFBth1S2aqmVXg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\background.png"
+    },
+    {
+      "Identity": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\cover-group.png",
+      "SourceId": "SocialNetwork.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "RelativePath": "images/cover-group#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyuxqtdv2i",
+      "Integrity": "CpnOQaDh/5spyZBjmuFNOs2oVFDo9xg+/IHHA/rOiy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cover-group.png"
+    },
+    {
+      "Identity": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\groups.png",
+      "SourceId": "SocialNetwork.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "RelativePath": "images/groups#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5894x5j8ad",
+      "Integrity": "tSxEGhDEoNc18PRUcSuAIDEpvoQB4uWSi5x4qhQX5W0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\groups.png"
+    },
+    {
+      "Identity": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\image.png",
+      "SourceId": "SocialNetwork.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "RelativePath": "images/image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epohx1mkni",
+      "Integrity": "Ulx8UprR+GQJ/GBSQxBLBJh8XVnC8sOdJc83MLme3Fg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
+    },
+    {
+      "Identity": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\user.png",
+      "SourceId": "SocialNetwork.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\",
+      "BasePath": "_content/SocialNetwork.API",
+      "RelativePath": "images/user#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lloghyqey6",
+      "Integrity": "iXkyaGCDq8UT1ClH1+vfTOmk8ad3ILHugArFkRnpI0w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/background.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D0XidGFscJGTz5yCCF5lBTSpo2rQrnFBth1S2aqmVXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D0XidGFscJGTz5yCCF5lBTSpo2rQrnFBth1S2aqmVXg="
+        }
+      ]
+    },
+    {
+      "Route": "images/background.pyxo1msuv2.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\background.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10765"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D0XidGFscJGTz5yCCF5lBTSpo2rQrnFBth1S2aqmVXg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pyxo1msuv2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/background.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D0XidGFscJGTz5yCCF5lBTSpo2rQrnFBth1S2aqmVXg="
+        }
+      ]
+    },
+    {
+      "Route": "images/cover-group.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\cover-group.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CpnOQaDh/5spyZBjmuFNOs2oVFDo9xg+/IHHA/rOiy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CpnOQaDh/5spyZBjmuFNOs2oVFDo9xg+/IHHA/rOiy8="
+        }
+      ]
+    },
+    {
+      "Route": "images/cover-group.yyuxqtdv2i.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\cover-group.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "154519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CpnOQaDh/5spyZBjmuFNOs2oVFDo9xg+/IHHA/rOiy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyuxqtdv2i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cover-group.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CpnOQaDh/5spyZBjmuFNOs2oVFDo9xg+/IHHA/rOiy8="
+        }
+      ]
+    },
+    {
+      "Route": "images/groups.5894x5j8ad.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\groups.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tSxEGhDEoNc18PRUcSuAIDEpvoQB4uWSi5x4qhQX5W0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5894x5j8ad"
+        },
+        {
+          "Name": "label",
+          "Value": "images/groups.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tSxEGhDEoNc18PRUcSuAIDEpvoQB4uWSi5x4qhQX5W0="
+        }
+      ]
+    },
+    {
+      "Route": "images/groups.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\groups.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tSxEGhDEoNc18PRUcSuAIDEpvoQB4uWSi5x4qhQX5W0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tSxEGhDEoNc18PRUcSuAIDEpvoQB4uWSi5x4qhQX5W0="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.epohx1mkni.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ulx8UprR+GQJ/GBSQxBLBJh8XVnC8sOdJc83MLme3Fg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "epohx1mkni"
+        },
+        {
+          "Name": "label",
+          "Value": "images/image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ulx8UprR+GQJ/GBSQxBLBJh8XVnC8sOdJc83MLme3Fg="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ulx8UprR+GQJ/GBSQxBLBJh8XVnC8sOdJc83MLme3Fg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ulx8UprR+GQJ/GBSQxBLBJh8XVnC8sOdJc83MLme3Fg="
+        }
+      ]
+    },
+    {
+      "Route": "images/user.lloghyqey6.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iXkyaGCDq8UT1ClH1+vfTOmk8ad3ILHugArFkRnpI0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lloghyqey6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/user.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iXkyaGCDq8UT1ClH1+vfTOmk8ad3ILHugArFkRnpI0w="
+        }
+      ]
+    },
+    {
+      "Route": "images/user.png",
+      "AssetFile": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\user.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iXkyaGCDq8UT1ClH1+vfTOmk8ad3ILHugArFkRnpI0w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Feb 2025 07:12:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iXkyaGCDq8UT1ClH1+vfTOmk8ad3ILHugArFkRnpI0w="
+        }
+      ]
+    }
+  ]
+}

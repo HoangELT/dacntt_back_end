@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\background.png",
+      "PackagePath": "staticwebassets\\images\\background.png"
+    },
+    {
+      "Id": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\cover-group.png",
+      "PackagePath": "staticwebassets\\images\\cover-group.png"
+    },
+    {
+      "Id": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\groups.png",
+      "PackagePath": "staticwebassets\\images\\groups.png"
+    },
+    {
+      "Id": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\image.png",
+      "PackagePath": "staticwebassets\\images\\image.png"
+    },
+    {
+      "Id": "G:\\DACNTT\\SocialNetwork.API\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SocialNetwork.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SocialNetwork.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SocialNetwork.API.props",
+      "PackagePath": "build\\SocialNetwork.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SocialNetwork.API.props",
+      "PackagePath": "buildMultiTargeting\\SocialNetwork.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SocialNetwork.API.props",
+      "PackagePath": "buildTransitive\\SocialNetwork.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

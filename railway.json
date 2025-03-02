@@ -1,0 +1,10 @@
+{
+  "services": [
+    {
+      "name": "sqlserver",
+      "env": "production",
+      "startCommand": "/opt/mssql/bin/sqlservr",
+      "port": 1433
+    }
+  ]
+}

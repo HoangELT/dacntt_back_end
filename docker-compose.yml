@@ -1,0 +1,54 @@
+version: '3.8'
+
+networks:
+  mynetwork:
+    driver: bridge
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql_server_container
+    restart: always
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "1"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+    networks:
+      - mynetwork
+
+  redis:
+    image: redis:latest
+    container_name: redis_container_public
+    restart: always
+    ports:
+      - "6378:6378"
+    volumes:
+      - redis_data:/data
+    command: ["redis-server", "--appendonly", "yes"]
+    networks:
+      - mynetwork
+
+  socialnetwork_api:
+    build: .
+    container_name: socialnetwork_api_container
+    restart: always
+    ports:
+      - "5000:80"
+    depends_on:
+      - sqlserver
+      - redis
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__MyDbConnection=Server=host.docker.internal,1433;Database=SocialNetworkDB;User Id=sa;Password=1;TrustServerCertificate=True
+      - RedisOptions__ConnectionStrings=redis:6378
+    networks:
+      - mynetwork
+
+volumes:
+  sqlserver_data:
+    driver: local
+  redis_data:
+    driver: local
